@@ -1,11 +1,10 @@
 
 const UserService = require('../../repo/userService'); 
 const UsersRepo = require('../../repo/usersRepo'); 
-const APP_PROFILES = require('../../constants/appProfiles');
 
 it('testCRUD_User', async () => {
     
-    let repo = new UsersRepo(APP_PROFILES.TEST);
+    let repo = new UsersRepo(process.env.APP_PROFILE);
     try {
         await repo.deleteUsersTable();
     } catch(error) {

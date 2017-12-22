@@ -6,7 +6,7 @@ class UserService {
 
     constructor(usersRepo) {
         if (!usersRepo) {
-            let profile = APP_PROFILES[process.env.REGION] || APP_PROFILES["TEST"];
+            let profile = APP_PROFILES[process.env.APP_PROFILE] || APP_PROFILES["TEST"];
             this._usersRepo = new UsersRepo(profile);
        }
         else {
