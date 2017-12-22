@@ -1,0 +1,19 @@
+{
+  "name": "Elastic-Beanstalk-Sample-App",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "latest",
+    "body-parser": "latest",
+    "ejs": "latest",
+    "express": "latest",
+    "jest": "^21.2.1",
+    "jest-cli": "^21.2.1",
+    "nodemon": "^1.12.5",
+    "object-hash": "^1.2.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  }
+}

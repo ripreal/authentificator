@@ -1,0 +1,24 @@
+{
+    "REGION": "us-west-2",
+    "REGION_FULL": "US_WEST_OREGON",
+    "SES": 
+    {
+        "SMPT_USER": "ripreal",
+        "SMPT_SERVER": "email-smtp.us-west-2.amazonaws.com",
+        "PORT": "465",
+        "SMTP_Username": "AKIAIW7ODMZFZYIVR4HA",
+        "SMTP_Password": "Akzu2oA63aRcy3UoYMt3NLvekjkJkBkWcS6OGyddkNBN"
+    },
+    "DYNAMO_DB": {
+        "SERVER":"http://localhost:8000"
+    },
+    "AWS": 
+    {
+        "ACCESS_KEY_ID": "AKIAI4FRQ77PSO3MBDSQ",
+        "SECRET_ACCESS_KEY": "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"
+        
+    },
+    "AMAZON_PRODUCT_API": {
+
+    }
+}
